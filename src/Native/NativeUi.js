@@ -1,4 +1,4 @@
-var _elm_native_ui$elm_native_ui$Native_NativeUi = (function () {
+var _opsb$elm_native_ui$Native_NativeUi = (function () {
 
   var ReactNative = require('react-native');
   var React = require('react');
@@ -230,7 +230,7 @@ var _elm_native_ui$elm_native_ui$Native_NativeUi = (function () {
         case 'renderProp':
           finalProps[fact.propName] = makeRenderNodePropHandler(fact, eventNode, key);
           break;
-	  
+
         case 'event':
           finalProps[fact.eventName] = makeEventHandler(eventNode, fact.decoder);
           break;
